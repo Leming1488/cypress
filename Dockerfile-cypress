@@ -1,0 +1,26 @@
+FROM cypress/browsers:node12.13.0-chrome78-ff70
+
+# avoid too many progress messages
+# https://github.com/cypress-io/cypress/issues/1243
+ENV CI=1
+ARG CYPRESS_VERSION="4.5.0"
+
+RUN echo "whoami: $(whoami)"
+RUN npm config -g set user $(whoami)
+
+RUN echo  " node version:    $(node -v) \n" \
+  "npm version:     $(npm -v) \n" \
+  "yarn version:    $(yarn -v) \n" \
+  "debian version:  $(cat /etc/debian_version) \n" \
+  "user:            $(whoami) \n"
+
+COPY package*.json /
+
+RUN npm i --no-optional "wait-on"
+
+COPY ./cypress ./cypress
+COPY cypress.json /
+COPY cypress_runner.js /
+
+# Run tests
+CMD /bin/bash -c "./node_modules/.bin/wait-on http://nginx/ && node cypress_runner --headless --browser chrome"

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logging In - HTML Web Form - Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="authentication">
+        <div class="authentication__wrapper authentication__wrapper_ru">
+          <section class="authentication-content">
+            <header class="authentication-header"></header>
+            <aside class="authentication-aside">
+              <section class="card auth_form">
+
+                <form data-cy="login" onsubmit="return false;">
+
+                  <h3 class="title title--h3">Вход</h3>
+
+                  <div class="auth_form-email-input-wrapper">
+                    <div class="input_wrapper input_wrapper--xl input_wrapper--email" data-cy="email-wrapper">
+                      <input type="email" placeholder="Эл. почта" name="email" class="input_element" data-cy="email" value="">
+                      <label class="input_label">Эл. почта</label>
+                      <div class="input_error" data-cy="email-error">Поле обязательно для заполнения</div>
+                    </div>
+                  </div>
+
+                  <div class="auth_form-password-input-wrapper">
+                    <div class="input_wrapper input_wrapper--xl input_wrapper--password" data-cy="password-wrapper">
+                      <input type="password" placeholder="Пароль" name="password" class="input_element" data-cy="password" autocomplete="new-password" value=""  pattern="[A-Za-z0-9]{7,}">
+                      <label class="input_label">Пароль</label>
+                      <div class="input_error" data-cy="password-error">Поле обязательно для заполнения</div>
+                    </div>
+                  </div>
+
+                  <a data-cy="forgot-link" class="auth_form-forgot-link" href="/auth/reset">Забыли пароль?</a>
+
+                  <button type="submit" class="button button--primary button--l" data-cy="auth_form_submit">Войти</button>
+
+                  <div class="auth_form-switch_wrapper">
+                    <p class="auth_form-switch-text">Ещё нет аккаунта? &nbsp;<a data-cy="registration-link" href="/auth/registration">Зарегистрироваться </a></p>
+                  </div>
+
+                </form>
+
+              </section>
+            </aside>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

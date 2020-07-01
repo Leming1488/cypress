@@ -1,0 +1,6 @@
+{
+  "email": "test-cypress@gmail.ru",
+  "password": "443454qweee",
+  "invalid_email": "123@",
+  "invalid_password": "123"
+}
