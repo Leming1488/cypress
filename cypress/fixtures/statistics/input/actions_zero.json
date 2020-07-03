@@ -1,0 +1,123 @@
+{
+  "currency": "usd",
+  "limit": 30,
+  "offset": 0,
+  "total_items": 0,
+  "options": [
+    {
+      "name": "period",
+      "type": "period",
+      "available_values": null,
+      "default_value": {
+        "from": "2020-01-13",
+        "until": "2020-02-12"
+      },
+      "current_value": {
+        "from": "2020-01-13",
+        "until": "2020-02-12"
+      }
+    },
+    {
+      "name": "sub_id_1",
+      "type": "value",
+      "available_values": null,
+      "default_value": null,
+      "current_value": null
+    },
+    {
+      "name": "action_state",
+      "type": "select_single",
+      "available_values": [
+        {
+          "label": "paid",
+          "value": "paid"
+        },
+        {
+          "label": "processing",
+          "value": "processing"
+        },
+        {
+          "label": "cancelled",
+          "value": "cancelled"
+        }
+      ],
+      "default_value": null,
+      "current_value": null
+    },
+    {
+      "name": "campaign_id",
+      "type": "select_single",
+      "available_values": [],
+      "default_value": null,
+      "current_value": null
+    }
+  ],
+  "from": "2020-01-13",
+  "until": "2020-02-12",
+  "columns": [
+    {
+      "name": "campaign_id",
+      "type": "number",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "campaign_name",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "booked_at",
+      "type": "datetime",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "booking_id",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "marker",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "action_type",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "action_state",
+      "type": "string",
+      "value": null,
+      "values": []
+    },
+    {
+      "name": "price",
+      "type": "money",
+      "value": {
+        "value": 0
+      },
+      "values": []
+    },
+    {
+      "name": "total_profit",
+      "type": "money",
+      "value": {
+        "value": 0
+      },
+      "values": []
+    }
+  ]
+}

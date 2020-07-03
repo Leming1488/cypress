@@ -1,0 +1,21 @@
+{
+  "not_zero_values": [
+    {
+      "id": 153172,
+      "payment_uuid": "d7fe9880-aec5-4245-addd-cf5bd99eb0b8",
+      "amount": 2707.21,
+      "amount_in_currency": 65.82,
+      "created_at": "2019-08-13 07:14:47",
+      "currency": "usd",
+      "affiliate_id": 998,
+      "paid_at": "2019-08-13 07:47:14",
+      "operator_id": 7500,
+      "payment_info_id": 73521,
+      "comment": "Travelpayouts: affilite reward for July 2019",
+      "state": "paid",
+      "manual_transactions_ids": null,
+      "source_total":
+        "{\"avia\": 603.17, \"klit\": 7.75, \"hotel\": 43.68, \"manual\": -596.23, \"clicktripz\": 0.11, \"referral_avia\": 7.21, \"referral_clicktripz\": 0.14, \"referral_avia_ppc_clicks\": 0.02}"
+    }
+  ]
+}

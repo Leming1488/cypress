@@ -1,0 +1,11 @@
+{
+  "email": "affiliate@aviasales.ru",
+  "password": "123456qwe",
+  "password_new": "123456qwetest",
+  "promotion_code_name": "GUIDE",
+  "invalid_email": "123@",
+  "invalid_password": "123",
+  "invalid_promotion_code_name": "123456qwe",
+  "bad_email": "affiliate@aviasales111.ru",
+  "bad_password": "123456qwe111"
+}

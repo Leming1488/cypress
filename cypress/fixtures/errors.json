@@ -1,0 +1,9 @@
+{
+  "error_401": {
+    "errors": [
+      {
+        "message": "You need to sign in or sign up before continuing."
+      }
+    ]
+  }
+}

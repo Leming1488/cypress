@@ -1,0 +1,53 @@
+{
+  "user_id": 234,
+  "marker": 11501,
+  "email": "affiliate@aviasales.ru",
+  "not_confirmed_payment_info_id": 76493,
+  "currency": "RUB",
+  "admin": false,
+  "dashboard_offers": [
+    100,
+    10,
+    1,
+    7,
+    11,
+    14,
+    17,
+    18,
+    21,
+    22,
+    24,
+    26,
+    29,
+    36,
+    38,
+    43,
+    44,
+    45,
+    48,
+    49,
+    75,
+    81,
+    84,
+    91,
+    101,
+    115,
+    118,
+    72
+  ],
+  "registration_date": "2011-08-10",
+  "dashboard_settings":{
+    "pinned":[
+      44, 100
+    ],
+    "sort_by":"offer",
+    "period":"month",
+    "shown":"all",
+    "sort_order":"desc",
+    "locale":"ru"
+  },
+  "confirmed_at": "2019-05-13T17:24:40.000Z",
+  "confirmation_sent_at": "2019-05-13T11:59:45.000Z",
+  "firstname": "Testname",
+  "lastname": "Lastname"
+}

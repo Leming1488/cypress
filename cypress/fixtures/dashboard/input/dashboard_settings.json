@@ -1,0 +1,13 @@
+{
+  "dashboard_settings": {
+    "pinned": [
+      44,
+      100
+    ],
+    "sort_by": "offer",
+    "period": "month",
+    "shown": "all",
+    "sort_order": "desc",
+    "locale": "ru"
+  }
+}

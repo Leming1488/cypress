@@ -1,0 +1,13 @@
+{
+  "user_id": 234,
+  "marker": 11501,
+  "email": "123@gmail.com",
+  "not_confirmed_payment_info_id": 76493,
+  "currency": "RUB",
+  "admin": false,
+  "dashboard_offers": [],
+  "registration_date": "2011-08-10",
+  "dashboard_settings": {},
+  "confirmed_at": null,
+  "confirmation_sent_at": null
+}

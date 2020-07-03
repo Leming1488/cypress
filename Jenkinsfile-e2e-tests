@@ -1,0 +1,88 @@
+def commitHash
+
+pipeline {
+  agent {
+    kubernetes {
+      cloud "kubernetes-compose"
+      label "travelpayouts-tests"
+      defaultContainer "docker"
+    }
+  }
+  options {
+    ansiColor('xterm')
+  }
+  parameters {
+    string(name: 'Branch', defaultValue: '', description: 'Build Branch')
+    string(name: 'BuildNumber', defaultValue: '', description: 'Build number')
+    string(name: 'APP_ADDR', defaultValue: 'travelpayouts.dev.k8s.int.avs.io', description: 'APP_ADDR')
+    string(name: 'APP_HOST', defaultValue: 'localhost', description: 'APP_ADDR')
+  }
+  stages {
+    stage('Checkout repo') {
+      steps {
+        script {
+          if (Branch == '') {
+            Branch = "master"
+          }
+          commitHash = checkout([$class: 'GitSCM',
+            branches: [[name: "origin/${Branch}"]],
+            extensions: [[$class: 'WipeWorkspace']],
+            userRemoteConfigs: [[url: 'https://github.com/KosyanMedia/travelpayouts.com.git', credentialsId: 'Github-TravisCI', branch: Branch]]
+          ]).GIT_COMMIT
+        }
+      }
+    }
+    stage("Prepare docker environment") {
+      steps {
+        sh "mkdir -p ~/.docker"
+        withCredentials([file(credentialsId: 'dockerhub', variable: 'SecretFile')]) {
+          sh "cp $SecretFile ~/.docker/config.json"
+        }
+      }
+    }
+    stage("Tests") {
+      steps {
+        sh """
+          LOCALE=ru NGINX_PORT=80 BUILD_TAG=${Branch}-${BuildNumber} APP_ADDR=${APP_ADDR} APP_HOST=${APP_HOST} docker-compose -f docker/docker-compose.ci-cypress.yml up --build --exit-code-from=cypress --abort-on-container-exit
+        """
+      }
+    }
+  }
+  post { 
+    success {
+     publishHTML (target: [
+       allowMissing: true,
+       alwaysLinkToLastBuild: false,
+       keepAll: true,
+       reportDir: 'e2e_tests/cypress/report/mochawesome-report',
+       reportFiles: 'mochawesome.html',
+       reportName: "RCov Report"
+     ])
+     slackSend channel: "#tp-deploy", color: "#00FF00", message: "Tests for ${Branch} *SUCCESS*\nBuild number: #${BuildNumber}\n*RCov:* <https://jenkins.k8s.avs.io/job/travelpayouts-tests/${BUILD_NUMBER}/RCov_20Report/|Report>"
+     setBuildStatus("Build complete", "SUCCESS", commitHash);
+    }
+    failure {
+     publishHTML (target: [
+       allowMissing: true,
+       alwaysLinkToLastBuild: false,
+       keepAll: true,
+       reportDir: 'e2e_tests/cypress/report/mochawesome-report',
+       reportFiles: 'mochawesome.html',
+       reportName: "RCov Report"
+     ])
+      slackSend channel: "#tp-deploy", color: "#FF0000", message: "Tests for ${Branch} *FAILED*\nBuild number: #${BuildNumber}\n*RCov:* <https://jenkins.k8s.avs.io/job/travelpayouts-tests/${BUILD_NUMBER}/RCov_20Report/|Report>"
+      setBuildStatus("Build complete", "FAILURE", commitHash);    
+    }
+  }
+}
+
+void setBuildStatus(String message, String state, String commitHash) {
+  step([
+      $class: "GitHubCommitStatusSetter",
+      reposSource: [$class: "ManuallyEnteredRepositorySource", url: "https://github/KosyanMedia/travelpayouts.com.git"],
+      commitShaSource: [$class: "ManuallyEnteredShaSource", sha: commitHash],
+      contextSource: [$class: "ManuallyEnteredCommitContextSource", context: "continuous-integration/jenkins/travelpayouts-tests"],
+      errorHandlers: [[$class: "ChangingBuildStatusErrorHandler", result: "UNSTABLE"]],
+      statusResultSource: [ $class: "ConditionalStatusResultSource", results: [[$class: "AnyBuildResult", message: message, state: state]] ]
+  ]);
+}

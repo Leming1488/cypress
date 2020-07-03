@@ -1,0 +1,344 @@
+{
+  "records": [
+    {
+      "id": "recvg7ekXywC4QCTv",
+      "fields": {
+        "logo": [
+          {
+            "id": "attSXKWeG29JUsPOV",
+            "url": "https://dl.airtable.com/.attachments/7c9a2f1eb0465a6265b133c1fcb4222f/113665b2/Netology.png",
+            "filename": "Netology.png",
+            "size": 947,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/f1c7724c8da33e02a23a17800766568c/84d4dd57",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/44514710bc5d8912eed48559dde208a0/bd634504",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/7f3782749875f6850f55c4cfa3d2488c/eced09da",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "netology",
+        "promo_label": "Промокод на скидку 30%:",
+        "button_link": "https://netology.ru",
+        "promo_value": "GFDF34DFD!4",
+        "description": "Вы получите профессию с нуля: от видеолекций и вебинаров — к практике над реальным проектом. После успешного окончания курса вы сможете устроиться в достойную компанию или делать проекты на фрилансе — решать вам.",
+        "title": "SEO-специалист",
+        "tags": ["SEO", "Маркетинг"],
+        "order": 1,
+        "features": "\u003cli\u003eНаучитесь продвигать сайты и общаться \nс заказчиком\u003c/li\u003e\n\u003cli\u003eСоставите план SEO-продвижения для своего \nили учебного проекта\u003c/li\u003e",
+        "button_text": "Пройти курс на netology.ru"
+      },
+      "createdTime": "2020-05-01T09:52:13.000Z"
+    },
+    {
+      "id": "recL09OcNtBJdwtaD",
+      "fields": {
+        "logo": [
+          {
+            "id": "attV9xlJGiyZs6Zbk",
+            "url": "https://dl.airtable.com/.attachments/4f18541152aed92b214621618c508408/67532f81/Coursera.png",
+            "filename": "Coursera.png",
+            "size": 813,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/4d2c96bf7277491680559b50d4199394/2e67f1c4",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/21c6fca5b9207dd7697e4fd693bd58c0/a196cd56",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/b9230c17b683e08da1be3ed90ee0c82d/131972e2",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "coursera",
+        "button_link": "https://coursera.org",
+        "description": "Graphic Design is all around us! Words and pictures—the building blocks of graphic design—are the elements that carry the majority of the content in both the digital world and the printed world.",
+        "title": "Fundamentals of Graphic Design",
+        "tags": ["Создание сайтов", "Графический дизайн"],
+        "order": 2,
+        "features": "\u003cli\u003eFundamentals of Imagemaking\u003c/li\u003e\n\u003cli\u003eFundamentals of Typography\u003c/li\u003e\n\u003cli\u003eFundamentals of Shape and Color\u003c/li\u003e",
+        "button_text": "Пройти курс на coursera.org"
+      },
+      "createdTime": "2020-05-21T13:31:06.000Z"
+    },
+    {
+      "id": "recxjMGHGpepI1ntF",
+      "fields": {
+        "key": "edx",
+        "button_link": "https://edx.org",
+        "description": "This course provides a framework for writing for social media by focusing on purpose, content and audiences, helping you be more effective at using these powerful platforms to deliver your messages.",
+        "title": "Writing for Social Media",
+        "tags": ["Создание контента"],
+        "order": 3,
+        "features": "\u003cli\u003eAssess the audience you are writing for\u003c/li\u003e\n\u003cli\u003eCustomize content for the specific audience\nand delivery method\u003c/li\u003e\n\u003cli\u003eUtilize effective online writing strategies\u003c/li\u003e",
+        "button_text": "Пройти курс на edx.org"
+      },
+      "createdTime": "2020-05-22T11:05:54.000Z"
+    },
+    {
+      "id": "rec9AucA4dewoNlsK",
+      "fields": {
+        "logo": [
+          {
+            "id": "attSXKWeG29JUsPOV",
+            "url": "https://dl.airtable.com/.attachments/7c9a2f1eb0465a6265b133c1fcb4222f/113665b2/Netology.png",
+            "filename": "Netology.png",
+            "size": 947,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/f1c7724c8da33e02a23a17800766568c/84d4dd57",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/44514710bc5d8912eed48559dde208a0/bd634504",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/7f3782749875f6850f55c4cfa3d2488c/eced09da",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "netology1",
+        "promo_label": "Промокод на скидку 30%:",
+        "button_link": "https://netology.ru",
+        "promo_value": "GFDF34DFD!4",
+        "description": "Вы получите профессию с нуля: от видеолекций и вебинаров — к практике над реальным проектом. После успешного окончания курса вы сможете устроиться в достойную компанию или делать проекты на фрилансе — решать вам.",
+        "title": "SEO-специалист",
+        "tags": ["SEO", "Маркетинг"],
+        "order": 4,
+        "features": "\u003cli\u003eНаучитесь продвигать сайты и общаться \nс заказчиком\u003c/li\u003e\n\u003cli\u003eСоставите план SEO-продвижения для своего \nили учебного проекта\u003c/li\u003e",
+        "button_text": "Пройти курс на netology.ru"
+      },
+      "createdTime": "2020-05-22T11:21:34.000Z"
+    },
+    {
+      "id": "reciuL6o2frhCHET0",
+      "fields": {
+        "logo": [
+          {
+            "id": "attV9xlJGiyZs6Zbk",
+            "url": "https://dl.airtable.com/.attachments/4f18541152aed92b214621618c508408/67532f81/Coursera.png",
+            "filename": "Coursera.png",
+            "size": 813,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/4d2c96bf7277491680559b50d4199394/2e67f1c4",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/21c6fca5b9207dd7697e4fd693bd58c0/a196cd56",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/b9230c17b683e08da1be3ed90ee0c82d/131972e2",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "coursera1",
+        "button_link": "https://coursera.org",
+        "description": "Graphic Design is all around us! Words and pictures—the building blocks of graphic design—are the elements that carry the majority of the content in both the digital world and the printed world.",
+        "title": "Fundamentals of Graphic Design",
+        "tags": ["Создание сайтов", "Графический дизайн"],
+        "order": 5,
+        "features": "\u003cli\u003eFundamentals of Imagemaking\u003c/li\u003e\n\u003cli\u003eFundamentals of Typography\u003c/li\u003e\n\u003cli\u003eFundamentals of Shape and Color\u003c/li\u003e",
+        "button_text": "Пройти курс на coursera.org"
+      },
+      "createdTime": "2020-05-22T11:21:36.000Z"
+    },
+    {
+      "id": "recdhb3AhHr9iTW2y",
+      "fields": {
+        "logo": [
+          {
+            "id": "att4xXMMOnrT4wIVt",
+            "url": "https://dl.airtable.com/.attachments/d44f5149a146c93c7078eb052d5051e6/e6c6ee6e/Edx.png",
+            "filename": "Edx.png",
+            "size": 1682,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/730350a9855f0d66efa9f3b49ed1d7bf/feaa9f3d",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/f7104e450ac4be1197766175e26ec138/44c12b8c",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/ecbdcfbc7ddb25863439d1b2972754c9/d3c3e465",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "edx1",
+        "button_link": "https://edx.org",
+        "description": "This course provides a framework for writing for social media by focusing on purpose, content and audiences, helping you be more effective at using these powerful platforms to deliver your messages.",
+        "title": "Writing for Social Media",
+        "tags": ["Создание контента"],
+        "order": 6,
+        "features": "\u003cli\u003eAssess the audience you are writing for\u003c/li\u003e\n\u003cli\u003eCustomize content for the specific audience\nand delivery method\u003c/li\u003e\n\u003cli\u003eUtilize effective online writing strategies\u003c/li\u003e",
+        "button_text": "Пройти курс на edx.org"
+      },
+      "createdTime": "2020-05-22T11:21:36.000Z"
+    },
+    {
+      "id": "recNaaBXYK11BNsvJ",
+      "fields": {
+        "logo": [
+          {
+            "id": "attSXKWeG29JUsPOV",
+            "url": "https://dl.airtable.com/.attachments/7c9a2f1eb0465a6265b133c1fcb4222f/113665b2/Netology.png",
+            "filename": "Netology.png",
+            "size": 947,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/f1c7724c8da33e02a23a17800766568c/84d4dd57",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/44514710bc5d8912eed48559dde208a0/bd634504",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/7f3782749875f6850f55c4cfa3d2488c/eced09da",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "netology2",
+        "promo_label": "Промокод на скидку 30%:",
+        "button_link": "https://netology.ru",
+        "promo_value": "GFDF34DFD!4",
+        "description": "Вы получите профессию с нуля: от видеолекций и вебинаров — к практике над реальным проектом. После успешного окончания курса вы сможете устроиться в достойную компанию или делать проекты на фрилансе — решать вам.",
+        "title": "SEO-специалист",
+        "tags": ["SEO", "Маркетинг"],
+        "order": 7,
+        "features": "\u003cli\u003eНаучитесь продвигать сайты и общаться \nс заказчиком\u003c/li\u003e\n\u003cli\u003eСоставите план SEO-продвижения для своего \nили учебного проекта\u003c/li\u003e",
+        "button_text": "Пройти курс на netology.ru"
+      },
+      "createdTime": "2020-05-22T11:22:04.000Z"
+    },
+    {
+      "id": "rec6yiIDyJxpvwNae",
+      "fields": {
+        "logo": [
+          {
+            "id": "attV9xlJGiyZs6Zbk",
+            "url": "https://dl.airtable.com/.attachments/4f18541152aed92b214621618c508408/67532f81/Coursera.png",
+            "filename": "Coursera.png",
+            "size": 813,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/4d2c96bf7277491680559b50d4199394/2e67f1c4",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/21c6fca5b9207dd7697e4fd693bd58c0/a196cd56",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/b9230c17b683e08da1be3ed90ee0c82d/131972e2",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "coursera2",
+        "button_link": "https://coursera.org",
+        "description": "Graphic Design is all around us! Words and pictures—the building blocks of graphic design—are the elements that carry the majority of the content in both the digital world and the printed world.",
+        "title": "Fundamentals of Graphic Design",
+        "tags": ["Создание сайтов", "Графический дизайн"],
+        "order": 8,
+        "features": "\u003cli\u003eFundamentals of Imagemaking\u003c/li\u003e\n\u003cli\u003eFundamentals of Typography\u003c/li\u003e\n\u003cli\u003eFundamentals of Shape and Color\u003c/li\u003e",
+        "button_text": "Пройти курс на coursera.org"
+      },
+      "createdTime": "2020-05-22T11:22:05.000Z"
+    },
+    {
+      "id": "recnZ7eO3lOQtIXMu",
+      "fields": {
+        "logo": [
+          {
+            "id": "att4xXMMOnrT4wIVt",
+            "url": "https://dl.airtable.com/.attachments/d44f5149a146c93c7078eb052d5051e6/e6c6ee6e/Edx.png",
+            "filename": "Edx.png",
+            "size": 1682,
+            "type": "image/png",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/730350a9855f0d66efa9f3b49ed1d7bf/feaa9f3d",
+                "width": 145,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/f7104e450ac4be1197766175e26ec138/44c12b8c",
+                "width": 242,
+                "height": 60
+              },
+              "full": {
+                "url": "https://dl.airtable.com/.attachmentThumbnails/ecbdcfbc7ddb25863439d1b2972754c9/d3c3e465",
+                "width": 3000,
+                "height": 3000
+              }
+            }
+          }
+        ],
+        "key": "edx2",
+        "button_link": "https://edx.org",
+        "description": "This course provides a framework for writing for social media by focusing on purpose, content and audiences, helping you be more effective at using these powerful platforms to deliver your messages.",
+        "title": "Writing for Social Media",
+        "tags": ["Создание контента"],
+        "order": 9,
+        "features": "\u003cli\u003eAssess the audience you are writing for\u003c/li\u003e\n\u003cli\u003eCustomize content for the specific audience\nand delivery method\u003c/li\u003e\n\u003cli\u003eUtilize effective online writing strategies\u003c/li\u003e",
+        "button_text": "Пройти курс на edx.org"
+      },
+      "createdTime": "2020-05-22T11:22:05.000Z"
+    }
+  ]
+}

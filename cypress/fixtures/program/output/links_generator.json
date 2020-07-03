@@ -1,0 +1,18 @@
+{
+  "generated_links": [
+    {
+      "no_sub_id": "https://tp.media/r?marker=11501&p=111&u=https%3A%2F%2Ftezeks.com%2F",
+      "with_global_sub_id": "https://tp.media/r?marker=11501.iddqd&p=111&u=https%3A%2F%2Ftezeks.com%2F",
+      "with_generator_sub_id": "https://tp.media/r?marker=11501.test&p=111&u=https%3A%2F%2Ftezeks.com%2F",
+      "with_changed_custom_link": "https://tp.media/r?marker=11501&p=111&u=http%3A%2F%2Fwww.test.com%2F",
+      "no_promo_id": "https://tp.media/r?marker=11501&u=https%3A%2F%2Ftezeks.com%2F"
+    },
+    {
+      "no_sub_id": "https://tp.media/r?marker=11501&p=222&u=https%3A%2F%2Fiway.ru",
+      "with_global_sub_id": "https://tp.media/r?marker=11501.iddqd&p=222&u=https%3A%2F%2Fiway.ru",
+      "with_generator_sub_id": "https://tp.media/r?marker=11501.test&p=222&u=https%3A%2F%2Fiway.ru",
+      "with_changed_custom_link": "https://tp.media/r?marker=11501&p=222&u=http%3A%2F%2Fwww.test.com%2F",
+      "no_promo_id": "https://tp.media/r?marker=11501&u=https%3A%2F%2Fiway.ru"
+    }
+  ]
+}

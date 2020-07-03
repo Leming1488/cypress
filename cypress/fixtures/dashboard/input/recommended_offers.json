@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "recommended_offers": [
+    {
+      "id": 0,
+      "name": "Frolov special I",
+      "subtitle": "subtitle from kartoshka",
+      "body": "ru version 103"
+    },
+    {
+      "id": 2,
+      "name": "Frolov special II",
+      "subtitle": "subtitle from kartoshka",
+      "body": "ru version 103"
+    }
+  ]
+}

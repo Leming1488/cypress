@@ -1,0 +1,23 @@
+[
+  {
+    "type": "wire_transfer_rus",
+    "min_payout": "463",
+    "updated_at": "24.05.2016, 10:31",
+    "expanded": {
+      "organization_name": "test",
+      "director_name": "test test",
+      "address": "test test",
+      "inn": "1212121212",
+      "kpp": "",
+      "account": "12345678901234567890",
+      "bank_title": "testtest",
+      "bank_bik": "121212121",
+      "bank_account": "12121212121212121212"
+    }
+  },
+  {
+    "type": "wire_transfer",
+    "min_payout": "400",
+    "updated_at": "03.10.2012, 16:44"
+  }
+]

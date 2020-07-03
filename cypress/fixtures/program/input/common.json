@@ -1,0 +1,20 @@
+{
+  "campaign_id":91,
+  "background_color":"#f84242",
+  "site_link":"https://www.omio.com/",
+  "social_links":{
+    "facebook":"https://www.facebook.com/Omio",
+    "vk":"",
+    "twitter":"https://twitter.com/omioglobal"
+  },
+  "subscribed":true,
+  "name":"Omio — поиск и сравнение цен на автобусы, поезда и самолеты",
+  "sections":[
+    "about",
+    "stats",
+    "tools",
+    "additional"
+  ],
+  "name_short":"Omio",
+  "subscription_status":"accepted"
+}

@@ -1,0 +1,24 @@
+{
+  "tools_types": [
+    {
+      "value": "links",
+      "label": "Ссылки"
+    },
+    {
+      "value": "links_generator",
+      "label": "Генераторы ссылок"
+    },
+    {
+      "value": "widgets",
+      "label": "Виджеты"
+    },
+    {
+      "value": "links",
+      "label": "Ссылки"
+    },
+    {
+      "value": "banners",
+      "label": "Баннеры"
+    }
+  ]
+}

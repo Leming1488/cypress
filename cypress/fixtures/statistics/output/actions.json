@@ -1,0 +1,36 @@
+{
+  "defaultColumns": [
+    "campaign",
+    "booked_at",
+    "description",
+    "marker",
+    "action_state",
+    "price",
+    "total_profit"
+  ],
+  "dropdownList": [
+    "description",
+    "booking_id",
+    "marker",
+    "action_type",
+    "action_state",
+    "price",
+    "total_profit"
+  ],
+  "rowsCount": 30,
+  "totals": {
+    "price": "1\u00a0654\u00a0678\u202F₽",
+    "total_profit": "35\u00a0265.41\u202F₽"
+  },
+  "formattedCells": {
+    "campaign": {
+      "href": "/programs/100/stats/summary",
+      "src": "https://pics.avs.io/travelpayouts_square/16/16/100.png",
+      "name": "Aviasales / Jetradar"
+    },
+    "description": {
+      "text": "RT: Udon Thani (UTH) – Bangkok (BKK), 2020-02-08 – 2020-02-11, Economy"
+    },
+    "action_state": ["cancelled", "paid"]
+  }
+}

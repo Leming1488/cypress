@@ -1,0 +1,250 @@
+{
+  "offers": [
+    {
+      "id": 100,
+      "subscribed": true,
+      "premoderation": true,
+      "name_short": "Тестовая программа",
+      "description_short": "Тестовое описание",
+      "summary": "Саммари (дополнительный абзац)",
+      "performance": [
+        {
+          "label": "ECPC",
+          "value": "$0.06"
+        },
+        {
+          "label": "Средний чек",
+          "value": "$87.45"
+        },
+        {
+          "label": "Время жизни cookies",
+          "value": "30 дней"
+        }
+      ],
+      "traffic_types": {
+        "allowed": [
+          {
+            "label": "Контентный проект о путешествиях",
+            "value": "26",
+            "exclusions": ""
+          }
+        ],
+        "forbidden": [
+          {
+            "label": "Контекстная реклама",
+            "value": "1",
+            "exclusions": ""
+          },
+          {
+            "label": "Контекстная реклама на бренд",
+            "value": "2",
+            "exclusions": ""
+          },
+          {
+            "label": "Click-Under",
+            "value": "4",
+            "exclusions": ""
+          },
+          {
+            "label": "Pop-Up",
+            "value": "5",
+            "exclusions": ""
+          },
+          {
+            "label": "Pop-Under",
+            "value": "6",
+            "exclusions": ""
+          },
+          {
+            "label": "Таргетированная реклама в соц.сетях",
+            "value": "9",
+            "exclusions": ""
+          },
+          {
+            "label": "Приложения в соц.сетях",
+            "value": "10",
+            "exclusions": ""
+          },
+          {
+            "label": "Мессенджеры (Telegram, Viber и другие)",
+            "value": "11",
+            "exclusions": ""
+          },
+          {
+            "label": "В мобильных приложениях",
+            "value": "12",
+            "exclusions": ""
+          },
+          {
+            "label": "Дорвеи",
+            "value": "13",
+            "exclusions": ""
+          },
+          {
+            "label": "Мотивированный трафик",
+            "value": "14",
+            "exclusions": ""
+          },
+          {
+            "label": "Cashback трафик",
+            "value": "15",
+            "exclusions": ""
+          },
+          {
+            "label": "Iframe",
+            "value": "16",
+            "exclusions": ""
+          },
+          {
+            "label": "Toolbar",
+            "value": "17",
+            "exclusions": ""
+          },
+          {
+            "label": "Ретаргетинг/ремаркетинг",
+            "value": "18",
+            "exclusions": ""
+          },
+          {
+            "label": "Typosquatting",
+            "value": "19",
+            "exclusions": ""
+          },
+          {
+            "label": "Type-in",
+            "value": "20",
+            "exclusions": ""
+          },
+          {
+            "label": "Промокоды",
+            "value": "21",
+            "exclusions": ""
+          },
+          {
+            "label": "Adult-трафик",
+            "value": "22",
+            "exclusions": ""
+          },
+          {
+            "label": "Youtube-трафик",
+            "value": "23",
+            "exclusions": ""
+          },
+          {
+            "label": "Медийная реклама",
+            "value": "24",
+            "exclusions": ""
+          },
+          {
+            "label": "Тизерная реклама",
+            "value": "3",
+            "exclusions": ""
+          }
+        ],
+        "by_agreement": [
+          {
+            "label": "Email рассылка",
+            "value": "7",
+            "exclusions": ""
+          },
+          {
+            "label": "Группы и страницы в соц.сетях",
+            "value": "8",
+            "exclusions": ""
+          }
+        ]
+      },
+      "categories": [
+        {
+          "label": "Автобусные перевозки",
+          "value": "5"
+        },
+        {
+          "label": "Проживание",
+          "value": "9"
+        }
+      ],
+      "tools": [
+        {
+          "value": "links_generator",
+          "label": "Генераторы ссылок"
+        }
+      ],
+      "languages": [
+        {
+          "value": "RU",
+          "label": "Русский"
+        },
+        {
+          "value": "EN",
+          "label": "Английский (Великобритания)"
+        },
+        {
+          "value": "ES",
+          "label": "Испанский"
+        },
+        {
+          "value": "FR",
+          "label": "Французский"
+        },
+        {
+          "value": "IT",
+          "label": "Итальянский"
+        },
+        {
+          "value": "PT",
+          "label": "Португальский"
+        },
+        {
+          "value": "US",
+          "label": "Английский (США)"
+        },
+        {
+          "value": "ZH",
+          "label": "Китайский (упрощённый)"
+        },
+        {
+          "value": "TH",
+          "label": "Тайский"
+        },
+        {
+          "value": "BR",
+          "label": "Бразильский"
+        },
+        {
+          "value": "HE",
+          "label": "Иврит"
+        }
+      ],
+      "geo": [
+        {
+          "label": "Азербайджан",
+          "value": "AZ"
+        },
+        {
+          "label": "Армения",
+          "value": "AM"
+        },
+        {
+          "label": "Беларусь",
+          "value": "BY"
+        },
+        {
+          "label": "Казахстан",
+          "value": "KZ"
+        },
+        {
+          "label": "Киргизия",
+          "value": "KG"
+        },
+        {
+          "label": "Россия",
+          "value": "RU"
+        }
+      ],
+      "subscription_status": "accepted",
+      "affiliate_comission": 0.07,
+      "synonyms": "GYG\r\ngetyourguide"
+    }
+  ]
+}
