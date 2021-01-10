@@ -1,7 +1,6 @@
 require('cypress-plugin-retries');
 const addContext = require('mochawesome/addContext');
 
-import './user/profile_edit';
 import './user/login';
 
 let count = 0;

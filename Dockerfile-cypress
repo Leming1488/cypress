@@ -23,5 +23,4 @@ COPY cypress.json /
 COPY cypress_runner.js /
 
 # Run tests
-#--record --key a2621d7f-7ac5-4743-aead-bdbce0ff6289 --parallel --ci-build-id $BUILD_NUMBER ключ для дашборда
 CMD /bin/bash -c "./node_modules/.bin/wait-on http://nginx/ && node cypress_runner --headless --browser chrome"
