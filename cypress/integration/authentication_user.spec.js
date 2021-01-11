@@ -33,7 +33,6 @@ describe('Authentication User', () => {
       cy.get('[data-cy="email-error"]').should('not.visible');
     });
 
-
     it('Заполняем поле email не валидным значением, кликаем по кнопке войти, видим тект ошибки', () => {
       cy.get('[data-cy=email]')
         .type(user.invalid_email)
