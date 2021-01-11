@@ -4,17 +4,18 @@ describe('Authentication User', () => {
   before(() => {
     cy.clearCookies();
 
-    cy.visit('/dashboard', {
+    cy.visit('/', {
       onBeforeLoad(win) {
         delete win.fetch;
       }
     });
-
+    cy.url().should('include', 'login');
+    cy.get('[data-cy=login]').should('exist');
   });
 
   describe('Если не авторизован', () => {
     it('Переходим на главную страницу, попадаем на страницу логина', () => {
-      cy.visit('/dashboard');
+      cy.visit('/');
       cy.url().should('include', 'login');
       cy.get('[data-cy=login]').should('exist');
     });
